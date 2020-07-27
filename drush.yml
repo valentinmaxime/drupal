@@ -105,11 +105,16 @@ command:
       options:
         # Additional folders to search for scripts.
 #       script-path: 'sites/all/scripts:profiles/myprofile/scripts'
-  core:
+  core: 8.x
     rsync:
       options:
         # Ensure all rsync commands use verbose output.
 #       verbose: true
+
+  api: 2
+
+  projects:
+  - EnRacine
 
   site:
     install:
